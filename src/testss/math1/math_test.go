@@ -14,5 +14,31 @@ func TestAverage(t *testing.T) {
 	}
 
 
+	/*
+	TO run tests with coverage we should use:
+	go test -cover -> result: 
+	
+	PASS
+  coverage: 100.0% of statements
+  ok      your-module-name/src/testss/math1       0.005s
+	
+
+
+	But too see more details we can do something like:
+	go test -coverprofile=result.out
+
+	this will create a file with an outrput that could be read with some options:
+
+	option 1:
+	go tool cover -func=result.out
+
+	it'll give the methods percentage
+
+	or you can create a html with the report:
+	go tool cover -html=result.out
+
+
+	*/
+
 
 }
