@@ -62,7 +62,7 @@ func main() {
 	} else {
 		fmt.Println("not equals")
 		fmt.Println(reflect.TypeOf(p1))
-		fmt.Println(reflect.TypeOf(p))
+		fmt.Println(reflect.TypeOf(p3))
 	}
 
 }
